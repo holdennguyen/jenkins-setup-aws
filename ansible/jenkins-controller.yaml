@@ -1,0 +1,13 @@
+---
+- name: Install Jenkins on servers
+  hosts: all
+  become: true
+  remote_user: ubuntu
+
+  vars:
+    efs_mount_dir: "/data"
+    jenkins_data_dir: "/data/jenkins"
+    jenkins_lts_version: "2.387.2"
+
+  roles:
+    - jenkins-controller
