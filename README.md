@@ -7,10 +7,10 @@
 [**ansible arguments**](https://docs.ansible.com/ansible/latest/cli/ansible.html)
 `--scp-extra-args SCP_EXTRA_ARGS` - specify extra arguments to pass to scp only
 `--scp-extra-args -0` - enable the use of the OpenSSH "packet mode". This mode is more efficient than the default mode, and it can be used to transfer files over slow or unreliable connections.
->single-quote charactor is necessary if the argument contains spaces, example:
+>single-quote charactor is necessary to pass `-0` as an argument. Without `' '`, it will assume `-0` as a command option.
 >```
->--scp-extra-args -o UserKnownHostsFile=/dev/null
->--scp-extra-args '-o UserKnownHostsFile=/dev/null'
+>--scp-extra-args -0 
+>--scp-extra-args '-0'
 >```
 >in this case, both -0 and '-0' are valid syntaxes
 
