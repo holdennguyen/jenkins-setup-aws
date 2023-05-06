@@ -14,7 +14,7 @@
     <a href="https://devopscube.com/jenkins-autoscaling-setup/"><img src="/docs/images/us.png" width="25"></a>
 </p>
 
-## 💝 Nguồn dịch
+## 💝 Nguồn tham khảo
 
 GitHub: https://github.com/techiescamp/devops-projects <br>
 Blog: https://devopscube.com/jenkins-autoscaling-setup/
