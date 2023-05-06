@@ -10,8 +10,8 @@
     <b>LANGUAGE</b>
 </p>
 <p align="center">
-    <a href="https://devopscube.com/jenkins-autoscaling-setup/"><img src="/docs/images/us.png" width="25"></a>
     <a href="README.md"><img src="/docs/images/vi.png" width="25"></a>
+    <a href="https://devopscube.com/jenkins-autoscaling-setup/"><img src="/docs/images/us.png" width="25"></a>
 </p>
 
 ## 💝 Nguồn dịch
