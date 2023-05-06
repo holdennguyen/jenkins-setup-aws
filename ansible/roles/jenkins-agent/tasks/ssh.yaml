@@ -10,8 +10,8 @@
   debug:
     var: secret_value
 
-- name: Add public key to authorized_keys for ubuntu user
+- name: Add public key to authorized_keys for jenkins user
   authorized_key:
-    user: ubuntu
+    user: jenkins
     state: present
     key: "{{ secret_value.stdout }}"
