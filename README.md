@@ -1,6 +1,6 @@
 <h1 align="center">
   <img alt="pipeline diagram" src="./docs/images/overview.png" width="100%"/><br/>
-  Jenkins Setup với AWS Autoscaling Group, Load Balancer và EFS
+  Setup Jenkins với AWS Autoscaling Group, Load Balancer và EFS
 </h1>
 <p align="center">Học cách triển khai Jenkins với AWS Autoscaling group cùng Application Load Balancer và multi-AZ EFS.</p>
 
